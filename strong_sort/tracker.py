@@ -2,7 +2,8 @@
 from __future__ import absolute_import
 
 import numpy as np
-from  import iou_matching, kalman_filter, linear_assignment
+
+from . import iou_matching, kalman_filter, linear_assignment
 from .track import Track
 
 

@@ -1,9 +1,9 @@
 import numpy as np
 import torch
 
-from strong_sort.reid_multibackend import ReIDDetectMultiBackend
 from .detection import Detection
 from .nn_matching import NearestNeighborDistanceMetric
+from .reid_multibackend import ReIDDetectMultiBackend
 from .tracker import Tracker
 
 __all__ = ["StrongSORT"]
