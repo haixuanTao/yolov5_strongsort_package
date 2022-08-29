@@ -2,7 +2,7 @@
 from __future__ import absolute_import
 
 import numpy as np
-from strong_sort.sort import linear_assignment
+from  import linear_assignment
 
 
 def iou(bbox, candidates):

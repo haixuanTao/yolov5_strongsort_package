@@ -2,8 +2,8 @@
 from __future__ import absolute_import
 
 import numpy as np
-from strong_sort.sort import iou_matching, kalman_filter, linear_assignment
-from strong_sort.sort.track import Track
+from  import iou_matching, kalman_filter, linear_assignment
+from .track import Track
 
 
 class Tracker:

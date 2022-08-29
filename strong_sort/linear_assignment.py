@@ -3,7 +3,7 @@ from __future__ import absolute_import
 
 import numpy as np
 from scipy.optimize import linear_sum_assignment
-from strong_sort.sort import kalman_filter
+from  import kalman_filter
 
 INFTY_COST = 1e5
 
