@@ -12,7 +12,7 @@ import torchvision.transforms as transforms
 from torchreid.utils import FeatureExtractor
 from torchreid.utils.tools import download_url
 
-from .deep.reid_model_factory import (
+from .reid_model_factory import (
     get_model_name,
     get_model_url,
     show_downloadeable_models,
