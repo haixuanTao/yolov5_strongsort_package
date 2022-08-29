@@ -1,18 +1,10 @@
-import sys
-from os.path import exists as file_exists
-from os.path import join
-
-import cv2
-import gdown
 import numpy as np
-import pandas as pd
 import torch
-import torchvision.transforms as transforms
 
-from .reid_multibackend import ReIDDetectMultiBackend
-from .sort.detection import Detection
-from .sort.nn_matching import NearestNeighborDistanceMetric
-from .sort.tracker import Tracker
+from strong_sort.reid_multibackend import ReIDDetectMultiBackend
+from strong_sort.sort.detection import Detection
+from strong_sort.sort.nn_matching import NearestNeighborDistanceMetric
+from strong_sort.sort.tracker import Tracker
 
 __all__ = ["StrongSORT"]
 
