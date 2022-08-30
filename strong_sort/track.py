@@ -1,6 +1,7 @@
 # vim: expandtab:ts=4:sw=4
 import cv2
 import numpy as np
+
 from .kalman_filter import KalmanFilter
 
 
@@ -312,7 +313,7 @@ class Track:
             The associated detection.
         """
         self.conf = conf
-        self.class_id = class_id.int()
+        self.class_id = class_id
         self.mean, self.covariance = self.kf.update(
             self.mean,
             self.covariance,
